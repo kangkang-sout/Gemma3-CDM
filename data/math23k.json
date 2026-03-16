@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "math_1",
+    "question": "小明有1个苹果，小红给了他2个苹果，现在小明有多少个苹果？",
+    "answer": "3",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 0.4
+  },
+  {
+    "id": "math_2",
+    "question": "小明有2个苹果，小红给了他4个苹果，现在小明有多少个苹果？",
+    "answer": "6",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 0.5
+  },
+  {
+    "id": "math_3",
+    "question": "小明有3个苹果，小红给了他6个苹果，现在小明有多少个苹果？",
+    "answer": "9",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 0.6000000000000001
+  },
+  {
+    "id": "math_4",
+    "question": "小明有4个苹果，小红给了他8个苹果，现在小明有多少个苹果？",
+    "answer": "12",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 0.7
+  },
+  {
+    "id": "math_5",
+    "question": "小明有5个苹果，小红给了他10个苹果，现在小明有多少个苹果？",
+    "answer": "15",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 0.8
+  },
+  {
+    "id": "math_6",
+    "question": "小明有6个苹果，小红给了他12个苹果，现在小明有多少个苹果？",
+    "answer": "18",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 0.9000000000000001
+  },
+  {
+    "id": "math_7",
+    "question": "小明有7个苹果，小红给了他14个苹果，现在小明有多少个苹果？",
+    "answer": "21",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.0
+  },
+  {
+    "id": "math_8",
+    "question": "小明有8个苹果，小红给了他16个苹果，现在小明有多少个苹果？",
+    "answer": "24",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.1
+  },
+  {
+    "id": "math_9",
+    "question": "小明有9个苹果，小红给了他18个苹果，现在小明有多少个苹果？",
+    "answer": "27",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.2
+  },
+  {
+    "id": "math_10",
+    "question": "小明有10个苹果，小红给了他20个苹果，现在小明有多少个苹果？",
+    "answer": "30",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.3
+  },
+  {
+    "id": "math_11",
+    "question": "小明有11个苹果，小红给了他22个苹果，现在小明有多少个苹果？",
+    "answer": "33",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.4000000000000001
+  },
+  {
+    "id": "math_12",
+    "question": "小明有12个苹果，小红给了他24个苹果，现在小明有多少个苹果？",
+    "answer": "36",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.5000000000000002
+  },
+  {
+    "id": "math_13",
+    "question": "小明有13个苹果，小红给了他26个苹果，现在小明有多少个苹果？",
+    "answer": "39",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.6
+  },
+  {
+    "id": "math_14",
+    "question": "小明有14个苹果，小红给了他28个苹果，现在小明有多少个苹果？",
+    "answer": "42",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.7000000000000002
+  },
+  {
+    "id": "math_15",
+    "question": "小明有15个苹果，小红给了他30个苹果，现在小明有多少个苹果？",
+    "answer": "45",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.8
+  },
+  {
+    "id": "math_16",
+    "question": "小明有16个苹果，小红给了他32个苹果，现在小明有多少个苹果？",
+    "answer": "48",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 1.9000000000000001
+  },
+  {
+    "id": "math_17",
+    "question": "小明有17个苹果，小红给了他34个苹果，现在小明有多少个苹果？",
+    "answer": "51",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.0
+  },
+  {
+    "id": "math_18",
+    "question": "小明有18个苹果，小红给了他36个苹果，现在小明有多少个苹果？",
+    "answer": "54",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.1
+  },
+  {
+    "id": "math_19",
+    "question": "小明有19个苹果，小红给了他38个苹果，现在小明有多少个苹果？",
+    "answer": "57",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.2
+  },
+  {
+    "id": "math_20",
+    "question": "小明有20个苹果，小红给了他40个苹果，现在小明有多少个苹果？",
+    "answer": "60",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.3
+  },
+  {
+    "id": "math_21",
+    "question": "小明有21个苹果，小红给了他42个苹果，现在小明有多少个苹果？",
+    "answer": "63",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.4
+  },
+  {
+    "id": "math_22",
+    "question": "小明有22个苹果，小红给了他44个苹果，现在小明有多少个苹果？",
+    "answer": "66",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.5
+  },
+  {
+    "id": "math_23",
+    "question": "小明有23个苹果，小红给了他46个苹果，现在小明有多少个苹果？",
+    "answer": "69",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.6
+  },
+  {
+    "id": "math_24",
+    "question": "小明有24个苹果，小红给了他48个苹果，现在小明有多少个苹果？",
+    "answer": "72",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.7
+  },
+  {
+    "id": "math_25",
+    "question": "小明有25个苹果，小红给了他50个苹果，现在小明有多少个苹果？",
+    "answer": "75",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.8
+  },
+  {
+    "id": "math_26",
+    "question": "小明有26个苹果，小红给了他52个苹果，现在小明有多少个苹果？",
+    "answer": "78",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 2.9
+  },
+  {
+    "id": "math_27",
+    "question": "小明有27个苹果，小红给了他54个苹果，现在小明有多少个苹果？",
+    "answer": "81",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.0
+  },
+  {
+    "id": "math_28",
+    "question": "小明有28个苹果，小红给了他56个苹果，现在小明有多少个苹果？",
+    "answer": "84",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.1
+  },
+  {
+    "id": "math_29",
+    "question": "小明有29个苹果，小红给了他58个苹果，现在小明有多少个苹果？",
+    "answer": "87",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.2
+  },
+  {
+    "id": "math_30",
+    "question": "小明有30个苹果，小红给了他60个苹果，现在小明有多少个苹果？",
+    "answer": "90",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.3
+  },
+  {
+    "id": "math_31",
+    "question": "小明有31个苹果，小红给了他62个苹果，现在小明有多少个苹果？",
+    "answer": "93",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.4
+  },
+  {
+    "id": "math_32",
+    "question": "小明有32个苹果，小红给了他64个苹果，现在小明有多少个苹果？",
+    "answer": "96",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.5
+  },
+  {
+    "id": "math_33",
+    "question": "小明有33个苹果，小红给了他66个苹果，现在小明有多少个苹果？",
+    "answer": "99",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.6
+  },
+  {
+    "id": "math_34",
+    "question": "小明有34个苹果，小红给了他68个苹果，现在小明有多少个苹果？",
+    "answer": "102",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.7
+  },
+  {
+    "id": "math_35",
+    "question": "小明有35个苹果，小红给了他70个苹果，现在小明有多少个苹果？",
+    "answer": "105",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.8
+  },
+  {
+    "id": "math_36",
+    "question": "小明有36个苹果，小红给了他72个苹果，现在小明有多少个苹果？",
+    "answer": "108",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 3.9
+  },
+  {
+    "id": "math_37",
+    "question": "小明有37个苹果，小红给了他74个苹果，现在小明有多少个苹果？",
+    "answer": "111",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.0
+  },
+  {
+    "id": "math_38",
+    "question": "小明有38个苹果，小红给了他76个苹果，现在小明有多少个苹果？",
+    "answer": "114",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.1000000000000005
+  },
+  {
+    "id": "math_39",
+    "question": "小明有39个苹果，小红给了他78个苹果，现在小明有多少个苹果？",
+    "answer": "117",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.2
+  },
+  {
+    "id": "math_40",
+    "question": "小明有40个苹果，小红给了他80个苹果，现在小明有多少个苹果？",
+    "answer": "120",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.3
+  },
+  {
+    "id": "math_41",
+    "question": "小明有41个苹果，小红给了他82个苹果，现在小明有多少个苹果？",
+    "answer": "123",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.4
+  },
+  {
+    "id": "math_42",
+    "question": "小明有42个苹果，小红给了他84个苹果，现在小明有多少个苹果？",
+    "answer": "126",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.5
+  },
+  {
+    "id": "math_43",
+    "question": "小明有43个苹果，小红给了他86个苹果，现在小明有多少个苹果？",
+    "answer": "129",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.6
+  },
+  {
+    "id": "math_44",
+    "question": "小明有44个苹果，小红给了他88个苹果，现在小明有多少个苹果？",
+    "answer": "132",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.7
+  },
+  {
+    "id": "math_45",
+    "question": "小明有45个苹果，小红给了他90个苹果，现在小明有多少个苹果？",
+    "answer": "135",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.8
+  },
+  {
+    "id": "math_46",
+    "question": "小明有46个苹果，小红给了他92个苹果，现在小明有多少个苹果？",
+    "answer": "138",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 4.9
+  },
+  {
+    "id": "math_47",
+    "question": "小明有47个苹果，小红给了他94个苹果，现在小明有多少个苹果？",
+    "answer": "141",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.0
+  },
+  {
+    "id": "math_48",
+    "question": "小明有48个苹果，小红给了他96个苹果，现在小明有多少个苹果？",
+    "answer": "144",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.1000000000000005
+  },
+  {
+    "id": "math_49",
+    "question": "小明有49个苹果，小红给了他98个苹果，现在小明有多少个苹果？",
+    "answer": "147",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.2
+  },
+  {
+    "id": "math_50",
+    "question": "小明有50个苹果，小红给了他100个苹果，现在小明有多少个苹果？",
+    "answer": "150",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.3
+  },
+  {
+    "id": "math_51",
+    "question": "小明有51个苹果，小红给了他102个苹果，现在小明有多少个苹果？",
+    "answer": "153",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.4
+  },
+  {
+    "id": "math_52",
+    "question": "小明有52个苹果，小红给了他104个苹果，现在小明有多少个苹果？",
+    "answer": "156",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.5
+  },
+  {
+    "id": "math_53",
+    "question": "小明有53个苹果，小红给了他106个苹果，现在小明有多少个苹果？",
+    "answer": "159",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.6000000000000005
+  },
+  {
+    "id": "math_54",
+    "question": "小明有54个苹果，小红给了他108个苹果，现在小明有多少个苹果？",
+    "answer": "162",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.7
+  },
+  {
+    "id": "math_55",
+    "question": "小明有55个苹果，小红给了他110个苹果，现在小明有多少个苹果？",
+    "answer": "165",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.8
+  },
+  {
+    "id": "math_56",
+    "question": "小明有56个苹果，小红给了他112个苹果，现在小明有多少个苹果？",
+    "answer": "168",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 5.9
+  },
+  {
+    "id": "math_57",
+    "question": "小明有57个苹果，小红给了他114个苹果，现在小明有多少个苹果？",
+    "answer": "171",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.0
+  },
+  {
+    "id": "math_58",
+    "question": "小明有58个苹果，小红给了他116个苹果，现在小明有多少个苹果？",
+    "answer": "174",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.1000000000000005
+  },
+  {
+    "id": "math_59",
+    "question": "小明有59个苹果，小红给了他118个苹果，现在小明有多少个苹果？",
+    "answer": "177",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.2
+  },
+  {
+    "id": "math_60",
+    "question": "小明有60个苹果，小红给了他120个苹果，现在小明有多少个苹果？",
+    "answer": "180",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.3
+  },
+  {
+    "id": "math_61",
+    "question": "小明有61个苹果，小红给了他122个苹果，现在小明有多少个苹果？",
+    "answer": "183",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.4
+  },
+  {
+    "id": "math_62",
+    "question": "小明有62个苹果，小红给了他124个苹果，现在小明有多少个苹果？",
+    "answer": "186",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.5
+  },
+  {
+    "id": "math_63",
+    "question": "小明有63个苹果，小红给了他126个苹果，现在小明有多少个苹果？",
+    "answer": "189",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.6000000000000005
+  },
+  {
+    "id": "math_64",
+    "question": "小明有64个苹果，小红给了他128个苹果，现在小明有多少个苹果？",
+    "answer": "192",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.7
+  },
+  {
+    "id": "math_65",
+    "question": "小明有65个苹果，小红给了他130个苹果，现在小明有多少个苹果？",
+    "answer": "195",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.8
+  },
+  {
+    "id": "math_66",
+    "question": "小明有66个苹果，小红给了他132个苹果，现在小明有多少个苹果？",
+    "answer": "198",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 6.9
+  },
+  {
+    "id": "math_67",
+    "question": "小明有67个苹果，小红给了他134个苹果，现在小明有多少个苹果？",
+    "answer": "201",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.0
+  },
+  {
+    "id": "math_68",
+    "question": "小明有68个苹果，小红给了他136个苹果，现在小明有多少个苹果？",
+    "answer": "204",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.1000000000000005
+  },
+  {
+    "id": "math_69",
+    "question": "小明有69个苹果，小红给了他138个苹果，现在小明有多少个苹果？",
+    "answer": "207",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.2
+  },
+  {
+    "id": "math_70",
+    "question": "小明有70个苹果，小红给了他140个苹果，现在小明有多少个苹果？",
+    "answer": "210",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.3
+  },
+  {
+    "id": "math_71",
+    "question": "小明有71个苹果，小红给了他142个苹果，现在小明有多少个苹果？",
+    "answer": "213",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.4
+  },
+  {
+    "id": "math_72",
+    "question": "小明有72个苹果，小红给了他144个苹果，现在小明有多少个苹果？",
+    "answer": "216",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.5
+  },
+  {
+    "id": "math_73",
+    "question": "小明有73个苹果，小红给了他146个苹果，现在小明有多少个苹果？",
+    "answer": "219",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.6000000000000005
+  },
+  {
+    "id": "math_74",
+    "question": "小明有74个苹果，小红给了他148个苹果，现在小明有多少个苹果？",
+    "answer": "222",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.7
+  },
+  {
+    "id": "math_75",
+    "question": "小明有75个苹果，小红给了他150个苹果，现在小明有多少个苹果？",
+    "answer": "225",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.8
+  },
+  {
+    "id": "math_76",
+    "question": "小明有76个苹果，小红给了他152个苹果，现在小明有多少个苹果？",
+    "answer": "228",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 7.9
+  },
+  {
+    "id": "math_77",
+    "question": "小明有77个苹果，小红给了他154个苹果，现在小明有多少个苹果？",
+    "answer": "231",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.0
+  },
+  {
+    "id": "math_78",
+    "question": "小明有78个苹果，小红给了他156个苹果，现在小明有多少个苹果？",
+    "answer": "234",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.100000000000001
+  },
+  {
+    "id": "math_79",
+    "question": "小明有79个苹果，小红给了他158个苹果，现在小明有多少个苹果？",
+    "answer": "237",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.200000000000001
+  },
+  {
+    "id": "math_80",
+    "question": "小明有80个苹果，小红给了他160个苹果，现在小明有多少个苹果？",
+    "answer": "240",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.3
+  },
+  {
+    "id": "math_81",
+    "question": "小明有81个苹果，小红给了他162个苹果，现在小明有多少个苹果？",
+    "answer": "243",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.4
+  },
+  {
+    "id": "math_82",
+    "question": "小明有82个苹果，小红给了他164个苹果，现在小明有多少个苹果？",
+    "answer": "246",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.500000000000002
+  },
+  {
+    "id": "math_83",
+    "question": "小明有83个苹果，小红给了他166个苹果，现在小明有多少个苹果？",
+    "answer": "249",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.600000000000001
+  },
+  {
+    "id": "math_84",
+    "question": "小明有84个苹果，小红给了他168个苹果，现在小明有多少个苹果？",
+    "answer": "252",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.700000000000001
+  },
+  {
+    "id": "math_85",
+    "question": "小明有85个苹果，小红给了他170个苹果，现在小明有多少个苹果？",
+    "answer": "255",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.8
+  },
+  {
+    "id": "math_86",
+    "question": "小明有86个苹果，小红给了他172个苹果，现在小明有多少个苹果？",
+    "answer": "258",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 8.9
+  },
+  {
+    "id": "math_87",
+    "question": "小明有87个苹果，小红给了他174个苹果，现在小明有多少个苹果？",
+    "answer": "261",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.000000000000002
+  },
+  {
+    "id": "math_88",
+    "question": "小明有88个苹果，小红给了他176个苹果，现在小明有多少个苹果？",
+    "answer": "264",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.100000000000001
+  },
+  {
+    "id": "math_89",
+    "question": "小明有89个苹果，小红给了他178个苹果，现在小明有多少个苹果？",
+    "answer": "267",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.200000000000001
+  },
+  {
+    "id": "math_90",
+    "question": "小明有90个苹果，小红给了他180个苹果，现在小明有多少个苹果？",
+    "answer": "270",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.3
+  },
+  {
+    "id": "math_91",
+    "question": "小明有91个苹果，小红给了他182个苹果，现在小明有多少个苹果？",
+    "answer": "273",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.4
+  },
+  {
+    "id": "math_92",
+    "question": "小明有92个苹果，小红给了他184个苹果，现在小明有多少个苹果？",
+    "answer": "276",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.500000000000002
+  },
+  {
+    "id": "math_93",
+    "question": "小明有93个苹果，小红给了他186个苹果，现在小明有多少个苹果？",
+    "answer": "279",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.600000000000001
+  },
+  {
+    "id": "math_94",
+    "question": "小明有94个苹果，小红给了他188个苹果，现在小明有多少个苹果？",
+    "answer": "282",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.700000000000001
+  },
+  {
+    "id": "math_95",
+    "question": "小明有95个苹果，小红给了他190个苹果，现在小明有多少个苹果？",
+    "answer": "285",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.8
+  },
+  {
+    "id": "math_96",
+    "question": "小明有96个苹果，小红给了他192个苹果，现在小明有多少个苹果？",
+    "answer": "288",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 9.900000000000002
+  },
+  {
+    "id": "math_97",
+    "question": "小明有97个苹果，小红给了他194个苹果，现在小明有多少个苹果？",
+    "answer": "291",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 10.000000000000002
+  },
+  {
+    "id": "math_98",
+    "question": "小明有98个苹果，小红给了他196个苹果，现在小明有多少个苹果？",
+    "answer": "294",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 10.100000000000001
+  },
+  {
+    "id": "math_99",
+    "question": "小明有99个苹果，小红给了他198个苹果，现在小明有多少个苹果？",
+    "answer": "297",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 10.200000000000001
+  },
+  {
+    "id": "math_100",
+    "question": "小明有100个苹果，小红给了他200个苹果，现在小明有多少个苹果？",
+    "answer": "300",
+    "knowledge_points": [
+      "加法",
+      "乘法"
+    ],
+    "difficulty": 10.3
+  }
+]
