@@ -39,18 +39,22 @@ class NeuralCDM(nn.Module):
         # Q 矩阵映射（题目到知识点）
         self.q_matrix = nn.Linear(embedding_dim, num_knowledge)
         
-        # 诊断网络
-        self.diagnosis_net = nn.Sequential(
-            nn.Linear(embedding_dim * 3 + num_knowledge, 128),
-            nn.ReLU(),
-            nn.Dropout(0.1),
-            nn.Linear(128, 64),
-            nn.ReLU(),
-            nn.Linear(64, 1)
-        )
-        
-        # 初始化
+        # 诊断网络 - 在 forward 中动态处理
+        self.diagnosis_net = None
         self._init_weights()
+    
+    def _get_diagnosis_net(self, input_dim: int):
+        """延迟初始化诊断网络"""
+        if self.diagnosis_net is None:
+            self.diagnosis_net = nn.Sequential(
+                nn.Linear(input_dim, 128),
+                nn.ReLU(),
+                nn.Dropout(0.1),
+                nn.Linear(128, 64),
+                nn.ReLU(),
+                nn.Linear(64, 1)
+            ).to(self.student_emb.weight.device)
+        return self.diagnosis_net
     
     def _init_weights(self):
         for m in self.modules():
@@ -61,14 +65,14 @@ class NeuralCDM(nn.Module):
                 nn.init.zeros_(m.bias)
     
     def forward(self, student_ids: torch.Tensor, question_ids: torch.Tensor,
-                knowledge_ids: torch.Tensor, aligned_features: torch.Tensor) -> torch.Tensor:
+                knowledge_mask: torch.Tensor, aligned_features: torch.Tensor) -> torch.Tensor:
         """
         前向传播
         
         Args:
             student_ids: 学生 ID [batch_size]
             question_ids: 题目 ID [batch_size]
-            knowledge_ids: 知识点 ID [batch_size, num_knowledge]
+            knowledge_mask: 知识点掩码 [batch_size, num_knowledge]
             aligned_features: 对齐后的特征 [batch_size, feature_dim]
             
         Returns:
@@ -77,7 +81,11 @@ class NeuralCDM(nn.Module):
         # 获取嵌入
         student_feat = self.student_emb(student_ids)
         question_feat = self.question_emb(question_ids)
-        knowledge_feat = self.knowledge_emb(knowledge_ids).mean(dim=1)
+        
+        # 使用 knowledge_mask 代替 knowledge_ids
+        # knowledge_mask 已经是 one-hot 形式，直接用于加权
+        knowledge_feat = self.knowledge_emb.weight.unsqueeze(0).expand(student_ids.size(0), -1, -1)
+        knowledge_feat = (knowledge_feat * knowledge_mask.unsqueeze(-1)).sum(dim=1) / (knowledge_mask.sum(dim=-1, keepdim=True) + 1e-8)
         
         # Q 矩阵映射
         q_feat = torch.sigmoid(self.q_matrix(question_feat))
@@ -85,8 +93,11 @@ class NeuralCDM(nn.Module):
         # 拼接特征
         combined = torch.cat([student_feat, question_feat, knowledge_feat, aligned_features], dim=-1)
         
+        # 延迟初始化诊断网络
+        diagnosis_net = self._get_diagnosis_net(combined.size(-1))
+        
         # 诊断预测
-        prediction = torch.sigmoid(self.diagnosis_net(combined))
+        prediction = torch.sigmoid(diagnosis_net(combined))
         
         return prediction.squeeze(-1)
 

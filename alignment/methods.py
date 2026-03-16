@@ -205,8 +205,9 @@ class NoAlignment(nn.Module):
     直接使用原始嵌入，不进行任何对齐操作
     """
     
-    def __init__(self):
+    def __init__(self, embedding_dim: int = 768):
         super().__init__()
+        self.embedding_dim = embedding_dim
     
     def forward(self, report_embeddings: torch.Tensor,
                 knowledge_embeddings: torch.Tensor,
