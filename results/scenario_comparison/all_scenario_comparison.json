@@ -1,0 +1,32 @@
+[
+  {
+    "dataset": "math23k",
+    "scenario": "sparse",
+    "model": "neuralcdm",
+    "error": "NoAlignment.__init__() got an unexpected keyword argument 'embedding_dim'"
+  },
+  {
+    "dataset": "math23k",
+    "scenario": "sparse",
+    "model": "opencdm",
+    "error": "NoAlignment.__init__() got an unexpected keyword argument 'embedding_dim'"
+  },
+  {
+    "dataset": "math23k",
+    "scenario": "sparse",
+    "model": "gcd",
+    "error": "NoAlignment.__init__() got an unexpected keyword argument 'embedding_dim'"
+  },
+  {
+    "dataset": "math23k",
+    "scenario": "sparse",
+    "model": "scd",
+    "error": "NoAlignment.__init__() got an unexpected keyword argument 'embedding_dim'"
+  },
+  {
+    "dataset": "math23k",
+    "scenario": "sparse",
+    "model": "rdgt",
+    "error": "NoAlignment.__init__() got an unexpected keyword argument 'embedding_dim'"
+  }
+]
